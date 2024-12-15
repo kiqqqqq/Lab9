@@ -1,6 +1,6 @@
 #include <iostream>
 #include "sdt.h"
-
+// Эта программа является учебной
 int main() {
   int a, b;
   std::cout << "Введите два целых числа: ";
