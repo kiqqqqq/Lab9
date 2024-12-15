@@ -8,9 +8,13 @@ int main() {
   std::cout << "Сумма: " << a + b << std::endl;
   std::cout << "Разность: " << a - b << std::endl;
   std::cout << "Произведение: " << a * b << std::endl;
+  if (b != 0) { // Проверка на деление на ноль
+    std::cout << "Частное: " << (double)a / b << std::endl; // Приведение к double для точности
+  } else {
+    std::cout << "Деление на ноль недопустимо!" << std::endl;
+  }
   return 0;
 }
-
 
 
 
